@@ -1,0 +1,29 @@
+.header {
+    padding: 19px 0 16px 0;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__item {
+        display: flex;
+        &__descr {
+            color: #242424;
+            font-size: 12px;
+            font-weight: 300;
+        }
+        &__country {
+            font-size: 14px;
+            font-weight: 700;
+        }
+        &__mail {
+            display: block;
+        }
+    }
+    &__img {
+        margin-right: 11px;
+        width: 28px;
+        height: 21px;
+    }
+    
+}
