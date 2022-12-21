@@ -1,0 +1,42 @@
+.prengli {
+    padding: 79px 0 81px 0;
+    &__wrapper {
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(3, 360px);
+        grid-template-rows:  255px 230px 255px;
+        justify-content: center;
+        column-gap: 30px;
+    }
+    &__item {
+        border: 1px solid #ececec;
+        position: relative;
+        border-radius: 5px;
+        text-align: center;
+        &__watermark {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
+        &_bottom {
+            grid-row: 3;
+        }
+        &__title {
+            margin-top: 33px;
+            color: #393939;
+            font-size: 48px;
+            font-weight: 700;
+            text-transform: uppercase;
+            text-align: center;
+        }
+    }
+    &__item__line {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        img {
+            margin: 0 auto;
+            display: block;
+            margin-top: 50px;
+        }
+    }
+}
