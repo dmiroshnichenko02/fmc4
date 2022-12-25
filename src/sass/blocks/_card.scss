@@ -1,0 +1,46 @@
+.card {
+    padding: 81px 0 80px 0;
+    &__title {
+        text-align: center;
+        color: #393939;
+        font-size: 30px;
+        font-weight: 900;
+    }
+    &__wrapper {
+        margin-top: 44px;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(550px, auto));
+        grid-template-rows: repeat(3, minmax(355px, auto));
+        grid-auto-rows: minmax(355px, auto);
+    }
+    &__item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &__title {
+            text-align: center;
+            color: #ffffff;
+            font-size: 23px;
+            font-weight: 400;
+            line-height: 26px;
+        }
+        &-1 {
+            background: url(../../img/favorably/clock.jpg) center (center/cover) no-repeat;
+        }
+        &-2 {
+            background: url(../../img/favorably/robot.jpg) center (center/cover) no-repeat;
+        }
+        &-3 {
+            background: url(../../img/favorably/globe.jpg) center (center/cover) no-repeat;
+        }
+        &-4 {
+            background: url(../../img/favorably/mobile.jpg) center (center/cover) no-repeat;
+        }
+        &-5 {
+            background: url(../../img/favorably/man.jpg) center (center/cover) no-repeat;
+        }
+        &-6 {
+            background: url(../../img/favorably/card.jpg) center (center/cover) no-repeat;
+        }
+    }
+}

@@ -1,0 +1,72 @@
+.cloud {
+    min-height: 580px;
+    background: url(../../img/storage/server__bg.jpg) center (center/cover) no-repeat;
+    padding-top: 80px;
+    position: relative;
+
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        z-index: 5;
+    }
+
+    &__title {
+        color: #ffffff;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 35.99px;
+        text-align: center;
+    }
+
+    &__item {
+        margin-top: 128px;
+        position: relative;
+
+        &__title {
+            color: #ffffff;
+            font-size: 30px;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        &__descr {
+            color: #ffffff;
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 26px;
+
+        }
+
+        &__lock {
+            margin-right: 82px;
+            text-align: right;
+            position: relative;
+            &:after {
+                position: absolute;
+                content: '';
+                width: 167px;
+                height: 167px;
+                background-color: #00c2f0;
+                z-index: 1;
+                opacity: 0.3;
+                top: -49px;
+                left: 74%;
+            }
+        }
+
+        &__server {
+            margin-left: 82px;
+            &:before {
+                position: absolute;
+                content: '';
+                width: 167px;
+                height: 167px;
+                background-color: #00c2f0;
+                z-index: 1;
+                opacity: 0.3;
+                top: -49px;
+                left: -35px;
+            }
+        }
+    }
+}
