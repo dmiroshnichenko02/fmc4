@@ -1,0 +1,57 @@
+.footer {
+    padding: 49px 0 40px 0;
+    background-color: #0082a1;
+    min-height: 497px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__company {
+        width: 377px;
+    }
+    &__list {
+        list-style-type: none;
+    }
+    &__item, &__company__descr, &__company__subdescr {
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 300;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 25px;
+        text-align: left;
+    }
+    &__img {
+        color: #fff;
+    }
+    &__title {
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    &__img {
+        display: block;
+        margin-top: 33px;
+    }
+    &__company__descr {
+        margin: 0;
+        margin-top: 20px;
+        line-height: 19px;
+    }
+    &__line {
+        margin-top: 44px;
+        display: block;
+        width: 1171px;
+        height: 2px;
+        opacity: 0.3; 
+        background-color: #fff;;
+    }
+    &__ink {
+        margin-top: 36px;
+        text-align: center;
+        color: #ffffff;
+        font-size: 13px;
+        font-weight: 300;
+    }
+}
